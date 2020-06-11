@@ -1,0 +1,80 @@
+/* 重置浏览器默认样式 */
+/* *{
+	margin: 0;
+	padding: 0;
+} */
+/* wrap */
+/* .wrap{
+	width: 1080px;
+	padding: 0 10px;
+} */
+/* body{
+				background-color: yellow;
+#logo{float:left;
+height: 1.5rem;
+margin: 10px 0;
+}
+#nov li{
+	background-color: aquamarine; */
+/* font-variant-ligatures: left; */
+/* margin-left: 30px;
+height: 44px;
+line-height: 44px;
+}
+#nov{
+	color: #6495ED;
+}
+#nov li a{
+	color: #fff;
+	height: 44px;
+	width: 60px;
+	padding: 0 15px;
+	text-align: none;
+	display: block;
+	
+} */
+/* #nov li a:hover{
+	background-color: red;
+} */
+*{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	list-style:none;
+}
+/* wrap类 */
+.wrap{
+	width:1180px;
+	padding:0 10px;
+	margin:0 auto;
+}
+#header{
+	background-color: #000;
+	height: 44px;
+}
+#logo{
+/* background-color: aquamarine; */
+    float: left;
+}
+#nav{
+	float: right;
+}
+#nav li{
+	float: left;
+	margin-left: 30px;
+	height: 44px;
+	line-height: 44px;
+}
+#nav li a{
+	color: #fff;
+}
+#main{
+	background-color: aliceblue;
+}
+ul{
+	list-style: url(images/AE%20logo.png);
+}
+#footer{
+	background-color: #333;
+}
