@@ -42,12 +42,22 @@ line-height: 44px;
 }
 ul,li{
 	list-style:none;
+	text-align: center;
+	text-align: left;
 }
 /* wrap类 */
 .wrap{
-	width:1180px;
-	padding:0 10px;
+	width:1280px;
 	margin:0 auto;
+	text-align: center;
+}
+.wrap1{
+	background-color:#f4f4f4;
+	/* padding:0 0 0 30px; */
+}
+.wrap2{
+	background-color: #f4f4f4;
+	/* padding:0 0 0 30px; */
 }
 #header{
 	background-color: #000;
@@ -56,25 +66,91 @@ ul,li{
 #logo{
 /* background-color: aquamarine; */
     float: left;
+	height: 24px;
+	margin: 20px 0;
+	/* text-align: center; */
 }
 #nav{
 	float: right;
 }
 #nav li{
+	/* background-color: red; */
 	float: left;
-	margin-left: 30px;
+	margin-left:0 30px;
 	height: 44px;
 	line-height: 44px;
 }
 #nav li a{
+	/* background-color: greenyellow; */
 	color: #fff;
+	height: 44px;
+	width: 60px;
+	padding: 0 15px;
+	/* text-align: center剧中 */
+	text-align: center;
+	/* 去掉文字下面的杠text-decoration: none; */
+	text-decoration: none;
+	text-align: center;
+	display: block;
 }
+/* #nav li a:hover
+格式#nav li a:hover
+添加hover,
+ #nav li为名称添加颜色等 */
+#nav li a:hover{
+	background-color:greenyellow;
+}
+#firsta{
+	background-color:greenyellow;
+}
+#banner{
+	background-color: #F4F4F4;
+	text-align: center;
+}
+#banner img{
+	display: block;
+	/* 中点margin: 0 auto; */
+	margin: 0 auto;
+}
+
 #main{
-	background-color: aliceblue;
+	/* background-color: aliceblue; */
 }
-ul{
-	list-style: url(images/AE%20logo.png);
+#main h2{
+	/* background-color: gold; */
+	padding:30px 0px;
+}
+#main p{
+	/* background-color: skyblue; */
+}
+/* .about{
+	background-color: pink;
+} */
+.box{
+	/* background-color:pink; */
+	width: 1280px;
+	margin: 0 auto;
+}
+.box h2{
+	padding:30px 0 10px 0;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.box p{
+	padding: 10px 0;
+}
+ul li{
+	/* list-style是导入图片的意思 */
+	/* text align是剧中的意思 */
+	/* text-align: center; */
+	/* float: left;是向右对齐的意思 */
+	float: left;
+}
+#bos li a:hover{
+	list-style: url(./images/AX%20logo.png);
+	float: right;
 }
 #footer{
 	background-color: #333;
+	/* border-bottom: #000000; */
 }
