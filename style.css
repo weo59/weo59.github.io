@@ -1,41 +1,4 @@
-/* 重置浏览器默认样式 */
-/* *{
-	margin: 0;
-	padding: 0;
-} */
-/* wrap */
-/* .wrap{
-	width: 1080px;
-	padding: 0 10px;
-} */
-/* body{
-				background-color: yellow;
-#logo{float:left;
-height: 1.5rem;
-margin: 10px 0;
-}
-#nov li{
-	background-color: aquamarine; */
-/* font-variant-ligatures: left; */
-/* margin-left: 30px;
-height: 44px;
-line-height: 44px;
-}
-#nov{
-	color: #6495ED;
-}
-#nov li a{
-	color: #fff;
-	height: 44px;
-	width: 60px;
-	padding: 0 15px;
-	text-align: none;
-	display: block;
-	
-} */
-/* #nov li a:hover{
-	background-color: red;
-} */
+
 *{
 	margin:0;
 	padding:0;
@@ -45,19 +8,30 @@ ul,li{
 	text-align: center;
 	text-align: left;
 }
+body{
+	font-family: poppin,tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+}
 /* wrap类 */
 .wrap{
 	width:1280px;
 	margin:0 auto;
 	text-align: center;
+	
 }
 .wrap1{
+	/* width: 1280;
+	margin:0 auto; */
 	background-color:#f4f4f4;
-	/* padding:0 0 0 30px; */
+	padding:50px 0;
+	
+	
 }
 .wrap2{
+	/* width: 1280;
+	margin:0 auto; */
 	background-color: #f4f4f4;
-	/* padding:0 0 0 30px; */
+	padding:50px 0;
+	/* float: left; */
 }
 #header{
 	background-color: #000;
@@ -66,8 +40,9 @@ ul,li{
 #logo{
 /* background-color: aquamarine; */
     float: left;
-	height: 24px;
+	height: 30px;
 	margin: 20px 0;
+	display: block;
 	/* text-align: center; */
 }
 #nav{
@@ -98,23 +73,35 @@ ul,li{
 添加hover,
  #nav li为名称添加颜色等 */
 #nav li a:hover{
-	background-color:greenyellow;
+	background-color:#E8346B;
 }
 #firsta{
-	background-color:greenyellow;
+	background-color:#E8346B;
 }
-#banner{
-	background-color: #F4F4F4;
-	text-align: center;
+#header{
+	background-color: #000000;
+	
 }
 #banner img{
-	display: block;
-	/* 中点margin: 0 auto; */
-	margin: 0 auto;
+	background-image: url(images/tupian.png) center -200px no-repeat;
+	/* display: block; */
+	height: 700px;
+	/* margin: 0 auto; */
+	background-color: #000000;
 }
-
-#main{
-	/* background-color: aliceblue; */
+#banner div{
+	width: 1280;
+	margin: 0 auto;
+	/* padding-top: 350px;内边距 */
+	text-align: center;
+}
+#banner h2{
+	font-size:50px;
+	text-align: center;
+	
+}
+#banner p{
+	font-size:20;
 }
 #main h2{
 	/* background-color: gold; */
@@ -123,22 +110,36 @@ ul,li{
 #main p{
 	/* background-color: skyblue; */
 }
-/* .about{
-	background-color: pink;
-} */
 .box{
-	/* background-color:pink; */
+	background-color:pink;
 	width: 1280px;
 	margin: 0 auto;
 }
 .box h2{
-	padding:30px 0 10px 0;
-	border-bottom: 1px solid #ccc;
+	/* 字体边距 padding:50px 0 50px 0;*/
+	padding:0px 0 10px 0;
+	border-bottom: 1px solid #000000;
 	text-align: center;
+		/* 字体大小font-size: 40px; */
+	font-size: 40px;
+	letter-spacing: 15px;
 }
 .box p{
 	padding: 10px 0;
 }
+.about .zhh{
+	border-radius: 30%;
+	/* border: 1px solid #ddd; */
+	float:left;
+	margin-right: 35px;
+	
+}
+.about .about-text{
+	/* padding: 0 0 0 400px; */
+	background-color: red;
+}
+
+
 ul li{
 	/* list-style是导入图片的意思 */
 	/* text align是剧中的意思 */
@@ -148,9 +149,24 @@ ul li{
 }
 #bos li a:hover{
 	list-style: url(./images/AX%20logo.png);
-	float: right;
 }
 #footer{
-	background-color: #333;
+	background-color: #E8346B;
 	/* border-bottom: #000000; */
+}
+#xing{
+	width: 259px;
+	height: 150px;
+	float: left;
+}
+.xing img{
+	width: 60px;
+}
+.xing .hui1{
+	float: left;
+	width: 80px;
+}
+.xing .hui2{
+	float: left;
+	width: 80px;
 }
